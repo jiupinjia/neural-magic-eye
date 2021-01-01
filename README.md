@@ -1,6 +1,6 @@
 # Neural Magic Eye 
 
-[Preprint](<https://arxiv.org/abs/20xx.xxxxxx>) | [Project Page](<https://jiupinjia.github.io/neuralmagiceye/>)  | [Colab Runtime](<https://drive.google.com/file/d/1VTVZtWwoaBn2vMCjluWcTGimbQBw9bFn/view?usp=sharing>)
+[Preprint](<https://arxiv.org/abs/20xx.xxxxxx>) | [Project Page](<https://jiupinjia.github.io/neuralmagiceye/>)  | [Colab Runtime](<https://colab.research.google.com/drive/1f59dFLJ748i2TleE54RkbUZSMo9Hyx7l?usp=sharing>)
 
 ### Official PyTorch implementation of the preprint paper "NeuralMagicEye: Learning to See and Understand the Scene Behind anAutostereogram", arXiv:20xx.xxxxx.
 
@@ -85,7 +85,7 @@ python demo_decode_animated.py --in_file ./test_videos/bunny.mp4 --out_folder ./
 
 ## Google Colab
 
-Here we also provide a minimal working example of the inference runtime of our method. Check out [this link](https://drive.google.com/file/d/1VTVZtWwoaBn2vMCjluWcTGimbQBw9bFn/view?usp=sharing) and see your result on Colab.
+Here we also provide a minimal working example of the inference runtime of our method. Check out [this link](https://colab.research.google.com/drive/1f59dFLJ748i2TleE54RkbUZSMo9Hyx7l?usp=sharing) and see your result on Colab.
 
 
 
