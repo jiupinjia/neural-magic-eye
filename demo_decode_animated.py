@@ -24,7 +24,7 @@ parser.add_argument('--with_disparity_conv', action='store_true', default=False,
 parser.add_argument('--with_skip_connection', action='store_true', default=False,
                     help='using unet-fashion skip-connection at prediction layers')
 parser.add_argument('--in_size', type=int, default=256, metavar='N',
-                    help='input image size for training (default: 128)')
+                    help='image size at the input end of the network')
 parser.add_argument('--checkpoint_dir', type=str, default=r'./checkpoints', metavar='str',
                     help='dir to save checkpoints (default: ./checkpoints)')
 args = parser.parse_args()
