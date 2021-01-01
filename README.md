@@ -16,6 +16,12 @@ The implementation of the UNet architecture in our code is partially adapted fro
 
 
 
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+
+
+
 
 ## One-min video result
 
