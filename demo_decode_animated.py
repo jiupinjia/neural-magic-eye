@@ -30,14 +30,6 @@ parser.add_argument('--checkpoint_dir', type=str, default=r'./checkpoints', meta
 args = parser.parse_args()
 
 
-# in_file = r'./test_videos/shark.gif'
-# out_folder = r'./decode_output'
-# args.net_G = 'unet_256'
-# args.norm_type = 'batch'
-# args.with_disparity_conv = True
-# args.in_size = 256
-# checkpoint_dir = r'./checkpoints_decode_sp_u256_bn_df'
-
 
 synthesizer = stgm.Stereogram(CANVAS_HEIGHT=args.in_size)
 
