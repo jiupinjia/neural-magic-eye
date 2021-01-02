@@ -2,7 +2,7 @@
 
 [Preprint](<https://arxiv.org/abs/2012.15692>) | [Project Page](<https://jiupinjia.github.io/neuralmagiceye/>)  | [Colab Runtime](<https://colab.research.google.com/drive/1f59dFLJ748i2TleE54RkbUZSMo9Hyx7l?usp=sharing>)
 
-### Official PyTorch implementation of the preprint paper "NeuralMagicEye: Learning to See and Understand the Scene Behind anAutostereogram", arXiv:2012.15692.
+### Official PyTorch implementation of the preprint paper "NeuralMagicEye: Learning to See and Understand the Scene Behind an Autostereogram", arXiv:2012.15692.
 
 An autostereogram, a.k.a. magic eye image, is a single-image stereogram that can create visual illusions of 3D scenes from 2D textures. This paper studies an interesting question that whether a deep CNN can be trained to recover the depth behind an autostereogram and understand its content. The key to the autostereogram magic lies in the stereopsis - to solve such a problem, a model has to learn to discover and estimate disparity from the quasi-periodic textures. We show that deep CNNs embedded with disparity convolution, a novel convolutional layer proposed in this paper that simulates stereopsis and encodes disparity, can nicely solve such a problem after being sufficiently trained on a large 3D object dataset in a self-supervised fashion. We refer to our method as  "NeuralMagicEye". Experiments show that our method can accurately recover the depth behind autostereograms with rich details and gradient smoothness. Experiments also show the completely different working mechanisms for autostereogram perception between neural networks and human eyes. We hope this research can help people with visual impairments and those who have trouble viewing autostereograms.
 
