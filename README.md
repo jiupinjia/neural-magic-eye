@@ -99,7 +99,7 @@ unzip datasets.zip
 
 Note that to build the training pipeline, you will need a set of depth images and background textures, which are already there included in our pre-processed dataset (see folders `./dataset/ShapeNetCore.v2` and `./dataset/Textures` for more details). The autostereograms will be generated on the fly during the training process.
 
-In the following, we provide several examples for training our decoding/classification models with different configurations. Particularly, if you can check out  `--net_G` ,  `--norm_type` , `--with_disparity_conv` and  `--with_skip_connection`  for more details if you are interested in exploring different network architectures.
+In the following, we provide several examples for training our decoding/classification models with different configurations. Particularly,  if you are interested in exploring different network architectures, you can check out  `--net_G` ,  `--norm_type` , `--with_disparity_conv` and  `--with_skip_connection`  for more details.
 
 #### To train the decoding network (on mnist dataset, unet_64 + bn, without disparity_conv)
 
@@ -133,7 +133,7 @@ python train_classifier.py --dataset shapenet --net_G resnet18 --in_size 64 --ba
 
 #### Network architectures and performance
 
-In the following, we show the decoding/classification accuracy with different model architectures. We hope these statistics can give you some help in model configurations.
+In the following, we show the decoding/classification accuracy with different model architectures. We hope these statistics can help you if you want to build your own model.
 
 ![](./gallery/acc1.jpg)
 
