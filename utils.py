@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 import random
-from skimage.measure import compare_ssim as sk_cpt_ssim
+from skimage import measure
 
 import torch
 from torchvision import utils
@@ -26,7 +26,7 @@ def cpt_ssim(img, img_gt, normalize=False):
         img = (img - img.min()) / (img.max() - img.min() + 1e-9)
         img_gt = (img_gt - img_gt.min()) / (img_gt.max() - img_gt.min() + 1e-9)
 
-    SSIM = sk_cpt_ssim(img, img_gt, data_range=1.0)
+    SSIM = measure.compare_ssim(img, img_gt, data_range=1.0)
 
     return SSIM
 
